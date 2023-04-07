@@ -1,0 +1,23 @@
+let percentage = +prompt("Enter your percentage");
+
+if (percentage <=100 && percentage >=90) {
+  alert ("A+");
+}
+else if (percentage <90 && percentage >=80){
+  alert ("B");
+}
+ 
+else if (percentage <80  && percentage >=70){
+  alert ("C");
+}
+ 
+else if (percentage <70  && percentage >=60 ){
+  alert ("D");
+}
+else if (percentage <60  ){
+  alert ("F");
+}
+else {
+  alert ("you enter wrong percentage");
+}
+ 
